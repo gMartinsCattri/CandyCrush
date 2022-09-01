@@ -15,17 +15,22 @@
 .grid div {
     height: 70px;
     width: 70px;
+    background-size: cover;
 }
 
 h3 {
  font-family: "Montserrat", sans-serif;
  text-transform: uppercase;
+ font-size: 30px;
+ color: black;
+ font-weight: bold;
 }
 
 h1 {
  font-family: "Montserrat", sans-serif;
  text-transform: uppercase;
  margin-top: -10px;
+ color: white;
 }
 
 .invisible {
@@ -33,13 +38,13 @@ h1 {
 }
 
 body {
-  background-image: url("candy-crush-background-2.png");
+  background-image: url("nescafelast5.jpeg");
   max-width: 100vh;
   display: flex;
 }
 
 .score-board {
-  background-color: pink;
+  background-color: red;
   border-radius: 10px;
   margin-top: 200px;
   margin-left: 200px;
@@ -51,7 +56,7 @@ body {
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  background-image: linear-gradient(#FFB6C1, #FFC0CB);
+  background-image: linear-gradient(red, #FFC0CB);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff;
   color: #85796b;
 }
